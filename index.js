@@ -1,3 +1,4 @@
+module.exports = function(CodeMirror) {
 CodeMirror.defineMode("htmlmixed", function(config, parserConfig) {
   var htmlMode = CodeMirror.getMode(config, {name: "xml", htmlMode: true});
   var cssMode = CodeMirror.getMode(config, "css");
@@ -102,3 +103,4 @@ CodeMirror.defineMode("htmlmixed", function(config, parserConfig) {
 }, "xml", "javascript", "css");
 
 CodeMirror.defineMIME("text/html", "htmlmixed");
+};

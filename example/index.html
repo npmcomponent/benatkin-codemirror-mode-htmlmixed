@@ -5,14 +5,23 @@
   </head>
   <body>
 <textarea id="source" rows="30" cols="80">
-var codemirror = require('codemirror');
-require('codemirror-mode-javascript')(codemirror);
-var textarea = document.getElementById('source');
-codemirror.fromTextArea(textarea);
+<html>
+  <head>
+    <style>
+      p { color: red; }
+    </style>
+    <script>
+      console.log('test');
+    </script>
+  </head>
+  <body>
+    <p class="greeting">Hello, world.</p>
+  </body>
+</html>
 </textarea>
     <script src="build/build.js"></script>
     <script>
-      require('codemirror-example');
+      require('codemirror-mode-htmlmixed-example');
     </script>
   </body>
 </html>

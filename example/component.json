@@ -1,12 +1,15 @@
 {
-  "name": "codemirror-example",
-  "repo": "benatkin/codemirror-example",
+  "name": "codemirror-mode-htmlmixed-example",
+  "repo": "benatkin/codemirror-mode-htmlmixed-example",
   "description": "an example of codemirror",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
     "benatkin/codemirror": "*",
-    "benatkin/codemirror-mode-javascript": "*"
+    "benatkin/codemirror-mode-xml": "*",
+    "benatkin/codemirror-mode-javascript": "*",
+    "benatkin/codemirror-mode-css": "*",
+    "benatkin/codemirror-mode-htmlmixed": "*"
   },
   "development": {},
   "license": "MIT",

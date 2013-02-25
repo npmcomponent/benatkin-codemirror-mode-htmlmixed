@@ -1,9 +1,10 @@
 
-# codemirror-mode-javascript
+# codemirror-mode-htmlmixed
 
-  JavaScript highlighting for the 
+  HTML highlighting for the 
   [CodeMirror](https://github.com/benatkin/codemirror) 
   [component](https://github.com/component/component)
+  with support for highlighting within style and script tags
 
 ## Getting Started
 
@@ -23,7 +24,10 @@ After running the above commands, open up http://localhost:3000/ to see it in ac
 To use, call it with the codemirror object you want the mode added to.
 
     var codemirror = require('codemirror');
+    require('codemirror-mode-xml')(codemirror);
+    require('codemirror-mode-css')(codemirror);
     require('codemirror-mode-javascript')(codemirror);
+    require('codemirror-mode-html')(codemirror);
     // do something with CodeMirror
 
 ## License

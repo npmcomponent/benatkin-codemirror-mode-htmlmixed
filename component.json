@@ -1,7 +1,7 @@
 {
-  "name": "codemirror-mode-javascript",
-  "repo": "benatkin/codemirror-mode-javascript",
-  "description": "a javascript mode for CodeMirror",
+  "name": "codemirror-mode-htmlmixed",
+  "repo": "benatkin/codemirror-mode-htmlmixed",
+  "description": "an HTML mode for CodeMirror with support for highlighting inside style and script tags",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
