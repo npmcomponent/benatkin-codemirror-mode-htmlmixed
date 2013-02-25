@@ -28,7 +28,8 @@ To use, call it with the codemirror object you want the mode added to.
     require('codemirror-mode-css')(codemirror);
     require('codemirror-mode-javascript')(codemirror);
     require('codemirror-mode-html')(codemirror);
-    // do something with CodeMirror
+    var textarea = document.getElementById('source');
+    codemirror.fromTextArea(textarea, {mode: 'htmlmixed'});
 
 ## License
 
